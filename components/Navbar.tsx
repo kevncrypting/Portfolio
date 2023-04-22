@@ -7,7 +7,7 @@ export default function Navbar() {
         <ul className="flex gap-4 list-none">
             <li>Home</li>
             <li>Blog</li>
-            <li>Portfolio</li>
+            <li>Work</li>
             <li>Contact</li>
             <li>Resume</li>
         </ul>
