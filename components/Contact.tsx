@@ -4,9 +4,7 @@ export default function Contact() {
   return (
     <>
       <div>Contact</div>
-      <span>
-        console.log('Say <button>Hello</button>')
-      </span>
+        <button>Say Hello</button>
     </>
   );
 }
