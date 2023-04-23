@@ -5,14 +5,15 @@ import Footer from "./Footer";
 
 interface Props {
   children: ReactNode;
+  titleAddition?: string;
 }
 
-export default function Layout({ children }: Props) {
+export default function Layout({ children, titleAddition }: Props) {
   return (
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Thanuseng Kevin Prachith</title>
+        <title>Thanuseng Kevin Prachith{titleAddition}</title>
       </Head>
       <Navbar />
       <main>{children}</main>
