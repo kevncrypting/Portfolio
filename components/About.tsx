@@ -4,11 +4,9 @@ export default function About() {
         <div>About</div>
         Skills
         <ul>
-            <li>HTML, CSS, Javascript</li>
-            <li></li>
-            <li></li>
-            <li>React</li>
-            <li>Sequelize, PostgresQL, MongoDB</li>
+            <li>Javascript, Typescript, HTML, CSS, SQL</li>
+            <li>React, Next.js, Express, Tailwind, Bootstrap</li>
+            <li>Git, Github, Node.js, PostgresQL, MongoDB, Sequelize, Postman, Netlify, Vercel, Figma</li>
         </ul>
         </>
     )
